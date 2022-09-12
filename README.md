@@ -40,7 +40,7 @@ La siguiente imagen muestra cómo invocar el bloc de notas desde la línea de co
 En el fichero creado en el paso anterior definimos una clase llamada "HolaMundo". Ojo, el nombre de la clase debe ser igual al del    fichero. El código a escribir es el siguiente:
 
 ```Java
-class HolaMundo {
+public class HolaMundo {
     public static void main(String[] args){
         System.out.println("Hola Mundo!");
     }   
@@ -197,7 +197,7 @@ En dicha clase, además de tener un método `main` para que sea ejecutable, vamo
 ``` Java
 package tp.pr0;
 
-class Pr0Main {
+public class Pr0Main {
 
    public static void escribeSaludo(String nombre) {
       System.out.println("Hola, " + nombre);
